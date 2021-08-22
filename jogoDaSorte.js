@@ -1,5 +1,5 @@
 var numeroSecreto = parseInt(Math.random() * 10)
-var tentativas = 1
+var tentativas = 6
 
 while (tentativas > 0) {
   var chute = parseInt(prompt("Digite um número entre 0 e 10"))
